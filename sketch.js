@@ -23,6 +23,9 @@ function setup() {
       xspeed : 4,
       yspeed : 3,
   };
+  function centerCanvas(canvas) {
+    canvas.position(5,5);
+  }
 }
   
   function draw() {
@@ -69,8 +72,6 @@ function setup() {
      
   
   
-  function centerCanvas(canvas) {
-    canvas.position(5,5);
-  }
+
   
  
